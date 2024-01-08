@@ -6,7 +6,7 @@ function Form() {
     <form action='' className='flex flex-col'>
         <div className='relative w-100 flex flex-col'>
           <textarea
-            className='xs:p-3 lg:mt-5 lg:mb-5 sm:mt-3 sm:mb-3 lg:border-[3px] sm:border-[1px] border-[#D4D4D8] rounded-lg outline-none md:px-3 sm:px-2 sm:py-2  lg:text-[23px] md:text-[18px] sm:text-[16px]'
+            className='xs:p-3 lg:mt-5 lg:mb-5 sm:mt-3 sm:mb-3 lg:border-[3px] xs:border-[1px] xs:border-[#D4D4D8] rounded-lg outline-none md:px-3 sm:px-2 sm:py-2  lg:text-[20px] md:text-[18px] sm:text-[16px]'
             name=''
             id=''
             cols='30'
@@ -34,7 +34,7 @@ function Form() {
           </div>
         </div>
 
-        <Button className={"bg-[#57C49F] w-100 text-white xs:mt-3"}>
+        <Button className={"bg-[#57C49F] w-100 text-white sm:mt-1 xs:mt-5"}>
           Generate Quizz
         </Button>
       </form>
